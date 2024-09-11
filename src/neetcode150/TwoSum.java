@@ -21,7 +21,7 @@ public class TwoSum {
                         break;
                     }
                 }
-                int idxJ = 0;cd 
+                int idxJ = 0;
                 for(int j = 0; j < nums.length ; j++){
                     if(nums[j] == required && j != idxI){
                         idxJ = j;
